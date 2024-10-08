@@ -1,10 +1,12 @@
-## Hardware hacking in a law enforcement context
-#### Kjell Harald Andersen and Kim Espen Nyhus
+## Hardware hacking for fighting crime
+_Kjell Harald Andersen and Kim Espen Nyhus_
+
+
 KRIPOS / National Criminal Investigation Service,
 National Cyber Crime Center (NC3)
 Digital forensics section
 
----
+---#
 ## About
 Kjell Harald Andersen: 
 - Kripos since 2009
