@@ -24,6 +24,7 @@ We have identified two main approaches
 - Self made hardware
 - Self made controlling software
 
+--
 ## What do we prefer?
 We decided to pass on the Riscure eco system due to the lack of flexibility, and the exptremely high cost.
 
