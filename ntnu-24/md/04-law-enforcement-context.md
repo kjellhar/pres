@@ -1,10 +1,10 @@
 # The law enforcement context
 
 ---
-## Do the police hack hardware?
+## Do the police really hack hardware?
 Yes!
 
->In fact it is done much more than most people think, and in more countries.
+> In fact it is done much more than most people think, and in more countries.
 
 ---
 ## Why?

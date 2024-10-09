@@ -1,4 +1,4 @@
-## Hardware hacking for fighting crime
+## Hardware hacking as a forensic tool
 _Kjell Harald Andersen and Kim Espen Nyhus_
 
 
@@ -7,6 +7,12 @@ National Cyber Crime Center (NC3)
 Digital forensics section
 
 October 2024
+
+---
+## Some acknowledgement
+> We would like to thank NTNU Gjøvik and Arvind Sharma for this opportunity to talk to you today. 
+
+> Even though this lecture was created by Kjell H Andersen and Kim Nyhus, it is the accumulated skill and knowledge of many people both in the Norwegian police, and in various agencies across the world that has made this possible. 
 
 ---
 ## About - Kjell Harald Andersen
@@ -20,7 +26,7 @@ October 2024
 - Kripos since 2020
 - Bachelor degree in micro electronics from NTNU
 - Background in electronics and digital chip design
-- Currently working on non invasive attacks
+- Currently working on non invasive attacks (SCA/FI)
 
 --
 ## About - KRIPOS
@@ -40,22 +46,36 @@ October 2024
 --
 ## About - Digital forensics section
 
+--
+## About - Our national partners
+
+--
+## About - Our international partners
+
+
+---
+## The goal of this lecture
+- You will not learn much technical stuff
+- Instead, we will give you some real world insight into
+    - Feasability study and planning
+    - Equipment and lab setup
+    - Knowledge and skills
+    - Digital forensics and risk assesment
 
 ---
 ## Agenda
 - Hardware hacking in general
-- A professional approach
-- The law enforcement context
-- Resources
-- Planning
-- Execution
-- Examples
+- SCA/FI
+- Chip hacking
+- Some examples
 
 ---
-## The goal of this lecture
-- Planning, equipment, knowledge and documentation. The stuff a professional team is made of
-- Peek into digital forensics
-- Highligh some real world applications
+## And some practicle stuff
+- We assume you know most of the basic technical lingo.
+- If you have any questions, please note them down and hold on to them. Every now and then, there will be a checkpoint where we will address them. You'll know when it's time
+
+---
+# Questions so far?
 
 ---
 ## Test of image

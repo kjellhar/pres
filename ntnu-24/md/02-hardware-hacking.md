@@ -4,7 +4,11 @@
 >Any activity that manipulates electronic devices in unintended ways with the purpose of gaining access to data or changing its behaviour.
 
 ---
-## Hardware hacking
+## Just a brief overview
+So that we all are on the same page....
+
+---
+## What is HW hacking?
 - There is a large number of techniques, methods and activities that will fit under this definition. 
 	- Some are quite common and accessible
 	- Some requires very specialized equipment and expertice
@@ -40,7 +44,7 @@ _Software engineers seems to like this_
 _All over YouTube right now_
 
 ---
-## Side Channel / Fault injection
+## More Side Channel / Fault injection
 - Power glitching and probing
 - EM glitching and probing
 - Laser glitching
@@ -57,3 +61,10 @@ _Next level_
 - Chip edits
 
 _Tools for grown-ups_
+
+---
+## Reverse engineering
+- PCB layout / schematics
+- Interface protocols
+- integrated cricuits
+- FPGA bitfiles
