@@ -9,24 +9,21 @@ Digital forensics section
 October 2024
 
 ---
-## About
-Kjell Harald Andersen: 
+## About - Kjell Harald Andersen
 - Kripos since 2009
 - Masters degree in signal processing from NTNU
 - Background in analog and digital chip design
 - Currently working on invasive methods for attacking silicon devices
 
 --
-## About
-Kim Espen Nyhus:
+## About - Kim Espen Nyhus
 - Kripos since 2020
 - Bachelor degree in micro electronics from NTNU
 - Background in electronics and digital chip design
 - Currently working on non invasive attacks
 
 --
-## About
-KRIPOS:
+## About - KRIPOS
 - National center of expertice in the Norweginan police
 - Approx 650 employees, mix of police and technical experts.
 - Assist the police when necessary. 
@@ -37,9 +34,12 @@ KRIPOS:
 - Focus mainly on organised- and other serious crime
 
 --
-## About
-NC3:
+## About - NC3
 - Approx 150 employees 
+
+--
+## About - Digital forensics section
+
 
 ---
 ## Agenda
