@@ -6,6 +6,8 @@ KRIPOS / National Criminal Investigation Service,
 National Cyber Crime Center (NC3)
 Digital forensics section
 
+October 2024
+
 ---#
 ## About
 Kjell Harald Andersen: 
