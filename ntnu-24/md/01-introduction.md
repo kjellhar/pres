@@ -8,7 +8,7 @@ Digital forensics section
 
 October 2024
 
----#
+---
 ## About
 Kjell Harald Andersen: 
 - Kripos since 2009
@@ -63,4 +63,4 @@ NC3:
 
 - A bullet
 - Another bullet
-- and another f
+- and another one
