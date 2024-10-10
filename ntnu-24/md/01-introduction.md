@@ -9,7 +9,7 @@ Digital forensics section <!-- .element: style="text-align: left;"> -->
 
 October 2024 <!-- .element: style="text-align: left;"> -->
 
----
+--
 ## Some acknowledgement
 > We would like to thank NTNU Gjøvik and Arvind Sharma for this opportunity to talk to you today. <!-- .element: style="text-align: left;"> -->
 
@@ -63,19 +63,17 @@ October 2024 <!-- .element: style="text-align: left;"> -->
     - Knowledge and skills
     - Digital forensics and risk assesment
 
----
+--
 ## Agenda
 - Hardware hacking in general
 - SCA/FI
 - Chip hacking
 - Some examples
 
----
+--
 ## And some practicle stuff
 - We assume you know most of the basic technical lingo.
 - If you have any questions, please note them down and hold on to them. Every now and then, there will be a checkpoint where we will address them. You'll know when it's time
 
 ---
 # Questions so far?
-
-
