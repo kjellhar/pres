@@ -1,4 +1,6 @@
-# Escaping the garage hacks
+## Escaping the garage hacks
+
+--
 >Adding a tiny bit more professionality to the mix
 
 ---
@@ -49,4 +51,4 @@
     - Specific solutions  
 
 ---
-# Questions
+## Questions

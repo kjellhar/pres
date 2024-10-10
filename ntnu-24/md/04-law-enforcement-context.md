@@ -1,6 +1,3 @@
-# In law enforcement
-
----
 ## Do the police really hack hardware?
 
 --
@@ -46,4 +43,4 @@
 - Only one chance to get it right
 
 ---
-# Questions
+## Questions
