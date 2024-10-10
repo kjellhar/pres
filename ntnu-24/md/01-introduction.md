@@ -1,18 +1,19 @@
-## Hardware hacking as a forensic tool
-_Kjell Harald Andersen and Kim Espen Nyhus_
+# Hardware hacking as a forensic tool
+Kjell Harald Andersen and Kim Espen Nyhus <!-- .element: style="text-align: left; font-style: italic; "> -->
 
 
-KRIPOS / National Criminal Investigation Service,
-National Cyber Crime Center (NC3)
-Digital forensics section
+KRIPOS / National Criminal Investigation Service\
+National Cyber Crime Center (NC3)\
+Digital forensics section <!-- .element: style="text-align: left;"> -->
 
-October 2024
+
+October 2024 <!-- .element: style="text-align: left;"> -->
 
 ---
 ## Some acknowledgement
-> We would like to thank NTNU Gjøvik and Arvind Sharma for this opportunity to talk to you today. 
+> We would like to thank NTNU Gjøvik and Arvind Sharma for this opportunity to talk to you today. <!-- .element: style="text-align: left;"> -->
 
-> Even though this lecture was created by Kjell H Andersen and Kim Nyhus, it is the accumulated skill and knowledge of many people both in the Norwegian police, and in various agencies across the world that has made this possible. 
+> Even though this lecture was created by Kjell H Andersen and Kim Nyhus, it is the accumulated skill and knowledge of many people both in the Norwegian police, and in various agencies across the world that has made this possible. <!-- .element: style="text-align: left;"> -->
 
 ---
 ## About - Kjell Harald Andersen
@@ -77,10 +78,4 @@ October 2024
 ---
 # Questions so far?
 
----
-## Test of image
-<img src="assets/test-img.jpg" alt="drawing" width="350" align="right"/>
 
-- A bullet
-- Another bullet
-- and another one

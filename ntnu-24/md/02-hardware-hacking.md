@@ -1,13 +1,13 @@
 # Hardware hacking
 
----
->Any activity that manipulates electronic devices in unintended ways with the purpose of gaining access to data or changing its behaviour.
+--
+>Any activity that manipulates electronic devices in unintended ways with the purpose of gaining access to data or changing its behaviour. <!-- .element: style="text-align: left;"> -->
 
 ---
 ## Just a brief overview
 So that we all are on the same page....
 
----
+--
 ## What is HW hacking?
 - There is a large number of techniques, methods and activities that will fit under this definition. 
 	- Some are quite common and accessible
@@ -15,7 +15,7 @@ So that we all are on the same page....
 	- More will probably be added in the future
 - This is not a complete list, but most of the more popular techniques are mentioned
 
----
+--
 ## Reading memory devices
 - Through existing interfaces
 - In circuit
@@ -24,7 +24,7 @@ So that we all are on the same page....
 
  _Back in the old days ...._
 
----
+--
 ## Fuzzing interfaces
 - Low level
 	- UART
@@ -36,14 +36,14 @@ So that we all are on the same page....
 
 _Software engineers seems to like this_
 
----
+--
 ## Side Channel / Fault injection
 - Power glitching and probing
 - EM glitching and probing
 
 _All over YouTube right now_
 
----
+--
 ## More Side Channel / Fault injection
 - Power glitching and probing
 - EM glitching and probing
@@ -53,7 +53,7 @@ _All over YouTube right now_
 
 _Next level_
 
----
+--
 ## Invasive silicon attacks
 - Chip reverse engineering
 - ROM content extraction
@@ -62,9 +62,12 @@ _Next level_
 
 _Tools for grown-ups_
 
----
+--
 ## Reverse engineering
 - PCB layout / schematics
 - Interface protocols
 - integrated cricuits
 - FPGA bitfiles
+
+---
+# Questions
