@@ -1,4 +1,5 @@
-## Hardware hacking as a forensic tool
+# Hardware hacking
+## ... as a forensic tool
 
 
 Kjell Harald Andersen and Kim Espen Nyhus <!-- .element: style="text-align: left; font-style: italic; "> -->
@@ -66,7 +67,7 @@ October 2024 <!-- .element: style="text-align: left;"> -->
     - Digital forensics and risk assesment
 
 --
-## Agenda
+## Main topics
 - Hardware hacking in general
 - SCA/FI
 - Chip hacking
@@ -78,4 +79,4 @@ October 2024 <!-- .element: style="text-align: left;"> -->
 - If you have any questions, please note them down and hold on to them. Every now and then, there will be a checkpoint where we will address them. You'll know when it's time
 
 ---
-## Questions so far?
+# Questions so far?

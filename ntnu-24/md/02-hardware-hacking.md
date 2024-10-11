@@ -1,4 +1,4 @@
-## Hardware hacking
+# Hardware hacking
 
 --
 >Any activity that manipulates electronic devices in unintended ways with the purpose of gaining access to data or changing its behaviour. <!-- .element: style="text-align: left;"> -->
@@ -70,4 +70,4 @@ _Tools for grown-ups_
 - FPGA bitfiles
 
 ---
-## Questions
+# Questions

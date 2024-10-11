@@ -1,10 +1,10 @@
-## Do the police really hack hardware?
+# Do the police really hack hardware?
 
 --
 ## Yes!
 
 --
-> In fact it is done much more than most people think, and in more countries. <!-- .element: style="text-align: left;"> -->
+### In fact it is done much more than most people think, and in more countries.
 
 --
 ## Why?
@@ -20,10 +20,10 @@
 ## How?
 
 --
->From the simplest hack you can imagine... 
+#### From the simplest hack you can imagine... 
 
 -- 
->To the most advanced using multi million dollar equipment.
+#### To the most advanced using multi million dollar equipment.
 
 --
 ## What?
@@ -43,4 +43,4 @@
 - Only one chance to get it right
 
 ---
-## Questions
+# Questions
