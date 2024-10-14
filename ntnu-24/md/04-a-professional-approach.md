@@ -36,7 +36,7 @@
 ## Use the right equipemnt
 - Get generic equipment when you can (_versatile_)
 - Specific equipment when you must (_one trick pony_)
-- Adapt equipment when neccessary (_a bit risky_)
+- Adapt equipment when neccessary (_a bit risky_) 
 - Make stuff when there is no other option (_a lot of work_) 
 
 --

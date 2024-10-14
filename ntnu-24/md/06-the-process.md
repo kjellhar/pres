@@ -63,8 +63,5 @@
 - Need to pay careful attention to the risk assessment
 - A belt and suspenders approach
 
-
-
-
 ---
 # Questions

@@ -34,38 +34,28 @@ October 2024 <!-- .element: style="text-align: left;"> -->
 
 --
 ## About - KRIPOS
-- National center of expertice in the Norweginan police
-- Approx 650 employees, mix of police and technical experts.
-- Assist the police when necessary. 
-    - Traditional forensics
-    - Digital forensics
-    - Drugs and weapons
-    - Investigation of serious cases
-- Focus mainly on organised- and other serious crime
+- Law Enforcement agency for fighting organized and serious crime
+- National centre of competence for norwegian police
+- National laboratories for forensics science
+- National point of contact for international police collaboration
+- National centre of cybercrime
 
 --
 ## About - NC3
-- Approx 150 employees 
+>Prevent, detect and combat threats and crime in cyberspace.
 
 --
 ## About - Digital forensics section
-
---
-## About - Our national partners
-
---
-## About - Our international partners
-
+>Extract data and other evidence from electronic devices.
 
 ---
 ## The goal of this lecture
-- You will not learn much technical stuff
-- Instead, we will give you some real world insight into
+- Hopefully you will get some real world insight into
     - Feasability study and planning
     - Equipment and lab setup
     - Knowledge and skills
     - Digital forensics and risk assesment
-
+    
 --
 ## Main topics
 - Hardware hacking in general
