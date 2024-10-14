@@ -3,7 +3,7 @@
 ---
 ## Trezor One
 
-<img src="assets/trezor-one.jpg" alt="drawing" height="400" align="left"/>
+<img src="assets/trezor-one.jpg" alt="trezor one" height="400" align="left"/>
 
 - Hardware crypto wallet
     - Open hardware
@@ -19,14 +19,16 @@
 - Enables the debug interface
 - The PIN and encrytion seed was stored in plain text in RAM
 - This attack became obsolete in later firmware
+- https://www.theverge.com/2022/1/24/22898712/crypto-hardware-wallet-hacking-lost-bitcoin-ethereum-nft
 
 ---
 ## Reproducing the attack
-- Lots of public work on this device
+- More public work on this device
     - Does not necessarily work anymore
+    - Kraken is quite interesting (https://blog.kraken.com/product/security/kraken-identifies-critical-flaw-in-trezor-hardware-wallets)
 - In the law enforcement context there are issues
     - Need close to 100% success rate
-    - Consistant over sample specimen
+    - Consistent over sample specimen
     - Must know variation over chip revision and production site
 
 --
@@ -54,16 +56,91 @@
 ## Planning and risk mitigation
 - Extract data with as small risk of damage as possible
 - Map sample variation
-- Close control of paramters
+- Close control of parameters
 - On a given sample
-    - Tune the paramters without damaging the chip
+    - Tune the parameters without damaging the chip
     - Repeat the attack with same result each time after tuning
 
 --
 ### Main takeaway
->High Confidence - High repeatability - Low risk
+> High Confidence - High repeatability - Low risk
+
+--
+## Goal
+
+### Read out entire flash content
 
 ---
+# Questions
+
+---
+## STM32 Security
+- Readout Protection Level (RDP)
+- Stored in special flash cells
+- 3 levels of security
+    - RDP0: No security measures, debug port is open, all flash and ram available
+    - RDP1: Debug enabled, ram enabled but no flash access
+    - RDP2: Debug disabled, and flash is locked
+
+--
+### Trezor One has RDP2 enabled
+
+---
+## Building the attack
+- Examine the data sheet and reference manual
+    - Identify key events in the boot loader that may be glitched
+    - Find the glitch injection point closest to the kernel
+- Inject power to glitch instruction execution at these key moments
+
+-- 
+### The attack vector
+- On STM32 powerup, integrated BootROM executes first
+- BootROM is accessible through a serial port
+- In the BootROM there are commands for updating firmware
+- And for flash memory readout
+
+--
+> Put the chip in a state where the flash readout is enabled
+
+--- 
+## Setting up the hardware
+- Kernel instruction glitching
+    - We want to corrupt instruction execution
+- Attack as close to kernel as possible
+- The reference manual may be helpful
+
+-- 
+<img src="assets/power-scheme1.png" alt="Power scheme 1" height="580" align="left"/>
+
+- Internal V-reg for the kernel (marked yellow)
+- Glitching external voltage not good
+    - Through the V-reg will "remove" the glitch
+- Bypass V-reg and glitch kernel directly
+- Preferrably disable V-reg
+
+--
+<img src="assets/power-scheme2.png" alt="Power scheme 2" height="580" align="left"/>
+
+- 
+
+
+
+---
+## Getting acces to the bootloader
+ SNAKKE MED KIM OM DENNE
+
+
+---
+## Read Memory command
+- After bootloader is enabled flash read command is available
+- But the command check RDP bit again before returning any flash content
+- Must perform a new glitch for each read command
+- Each read command only returns 256 bytes of data
+- Must do the same glitch every time
+
+--
+<img src="assets/read-cmd-flowchart.png" alt="Read command flowchart" height="950"/>
+
 
 
 ---

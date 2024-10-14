@@ -42,11 +42,46 @@ October 2024 <!-- .element: style="text-align: left;"> -->
 
 --
 ## About - NC3
->Prevent, detect and combat threats and crime in cyberspace.
+> Prevent, detect and combat threats and crime in cyberspace.
 
 --
 ## About - Digital forensics section
->Extract data and other evidence from electronic devices.
+> xtract data and other evidence from electronic devices.
+
+--
+## About - International collaboration
+<img src="assets/international.png" alt="Internastional collaboration" height="600" />
+
+--
+## About - EXFILES
+> EXtract Forensic Information for LEAs from Encrypted Smartphones
+
+- Financed by Horizon 2020. Project budget of EUR 7 million over 3 years
+- Aim: Develop new forensic models and methods for accessing data by bypassing security features in modern mobile phones; Non-invasive, semi-invasive and full invasive attacks. (Side channel attacks (SCA), fault injection techniques, secure boot bypassing, blackbox functions, …)
+- 3 private companies, 5 academics and 5 LE agencies
+- Website: https://exfiles.eu (with downloadable results)
+- Status: Completed in October 2023
+
+-- 
+## About - Overclock
+> Operational Vanguard: using Encryption Research for Criminal LOCKdown
+
+- Financed by EU Internal Security Fund – Police (EU-ISFP)
+- Project budget of EUR 4 million over 3 years
+- Aim: Combat encrypted communication platforms used in organized crime and give police investigators access to decrypted data
+- 4 LE agencies
+- Status: Completed in September 2024
+
+--
+## About - ForRES
+> Forensic Reverse Engineering of Silicon chips
+
+- Financed by EU Internal Security Fund – Police (EU-ISFP)
+- Project budget of EUR 4 million over 2 years
+- Aim: Perform fully invasive operations on leading-edge semiconductor devices​ develop necessary tools and methods to attack the hardware chain of trust​ and advance the capability of extracting user data from highly integrated devices​.
+- 3 LE agencies and 1 research institute (CSIC)
+- Website: https://forres.eu
+
 
 ---
 ## The goal of this lecture
@@ -55,7 +90,7 @@ October 2024 <!-- .element: style="text-align: left;"> -->
     - Equipment and lab setup
     - Knowledge and skills
     - Digital forensics and risk assesment
-    
+
 --
 ## Main topics
 - Hardware hacking in general
