@@ -154,6 +154,13 @@
 <img src="assets/complete-setup.png" alt="Power scheme 1" height="800" />
 
 ---
+## Some words on signal integrity
+- Short lines
+    - 
+    - Paracitic effects (L and C)
+- 
+
+---
 ## Getting acces to the bootloader
 
 <img src="assets/bootloader-flowchart1.png" alt="Power scheme 1" height="500" align="left"/>
@@ -169,7 +176,7 @@
 --
 <img src="assets/bootloader-glitch.png" alt="Power scheme 1" height="900" />
 
----
+--- 
 ## Read Memory command
 - After bootloader is enabled flash read command is available
 - But the command check RDP bit again before returning any flash content
@@ -180,6 +187,8 @@
 --
 <img src="assets/read-cmd-flowchart.png" alt="Read command flowchart" height="950"/>
 
+---
+## Summary
 
 
 ---
