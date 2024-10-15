@@ -103,7 +103,7 @@
 > Put the chip in a state where the flash readout is enabled
 
 --- 
-## Setting up the hardware
+## Connecting the power
 - Kernel instruction glitching
     - We want to corrupt instruction execution
 - Attack as close to kernel as possible
@@ -121,14 +121,53 @@
 --
 <img src="assets/power-scheme2.png" alt="Power scheme 2" height="580" align="left"/>
 
-- 
+- Remove decoupling of V-reg output
+- Disable internal V-reg
+- Apply external voltage
+- Apply glitch directly to kernel
 
+---
+## Making the hardware
+- A custom PCB is made
+- Increase signal integrity
+    - Signal source close to target
+    - Small loop area
+- Increase stability
+    - Hard soldered connections
+    - Safer to store and handle
+- Reduce mess
 
+--
+<img src="assets/power-switches1.png" alt="Power scheme 1" height="500" align="left"/>
+
+- Analog switches on power supply
+    - Using MAX4619
+    - 3 in parallel to decrease on-resistance
+- Shunt resistor to measure current
+- Also measure reset pin
+- Connection to UART
+
+--
+<img src="assets/pcb.png" alt="Power scheme 1" height="800" />
+
+--
+<img src="assets/complete-setup.png" alt="Power scheme 1" height="800" />
 
 ---
 ## Getting acces to the bootloader
- SNAKKE MED KIM OM DENNE
 
+<img src="assets/bootloader-flowchart1.png" alt="Power scheme 1" height="500" align="left"/>
+
+- This flowchart hides some essential facts
+- Boot pins are checked during System Init
+- If Boot pins are set, and in RDP0 or RDP1 mode
+    - UART is enabled
+    - Chip will expect commands on UART
+- Glitch the system into RDP1 during System Init
+    - Course timing from Reset signal
+    - Fine timing from power spike when bootloader starts
+--
+<img src="assets/bootloader-glitch.png" alt="Power scheme 1" height="900" />
 
 ---
 ## Read Memory command
