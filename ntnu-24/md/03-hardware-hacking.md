@@ -63,8 +63,6 @@ _All over YouTube right now_....
 ---
 ## More Side Channel / Fault injection
 *BILDE*
-- Power glitching and probing
-- EM glitching and probing
 - Laser glitching
 - Photon emission probing
 - SEM voltage contrast probing

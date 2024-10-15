@@ -4,17 +4,16 @@
 ## What do we want?
 
 --
+## What do we want?
 - All the data?
 - Some specific data?
 - Passswords, hashes, credentials?
 - Firmware / ROM content
 - Fuse content
-- Encryption materials
+- Encryption keys
 
 -- 
 ## Our constraints
-
---
 - Can we get test samples?
 - Any tamper protection?
 - Do we have the appropriate equipment?
@@ -23,29 +22,26 @@
 
 --
 ## Risk assessment
-
---
 - How can it be damaged
 - How do we avoid tamper protection
 - Identify high risk operations
     - What are the consequences of failure
 - Identify the lowest risk operation that have a good chance at success
-
+- Identify "Points of no return"
 
 --
 ## The plan
-
---
 - What do we try?
 - And in what order?
     - Managing risk
     - Mindful of anything that can't be reversed
 - Decide on the success criteria
 
---
+---
 ## Implementing the attack
 
 --
+## Implementing the attack
 - The planning can only get you that far
 - This is a journey into the unknown
 - Always be ready to revisit the plan

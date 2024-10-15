@@ -36,19 +36,22 @@
 ## Use the right equipemnt
 - Get generic equipment when you can (_versatile_)
 - Specific equipment when you must (_one trick pony_)
-- Adapt equipment when neccessary (_a bit risky_) 
-- Make stuff when there is no other option (_a lot of work_) 
+- Adapt equipment when neccessary (_a bit risky_)
+- Make stuff when there is no other option (_a lot of work_)
 
 --
 ## Be mindful of you approach
 - Scientific
     - Develop new concepts
     - Increase skill and knowledge
-    - Generic solutions
+    - Generic solutions  
+
+--
+## Be mindful of you approach
 - Engineering
     - Solve a specific problem as fast as possible
     - Be pragmatic
-    - Specific solutions  
+    - Specific solutions
 
 ---
 # Questions
