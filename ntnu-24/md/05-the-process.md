@@ -55,7 +55,7 @@
 
 --
 ### Few or no devices
-- More driven by hyptheses
+- More driven by hypthesis
 - Need to pay careful attention to the risk assessment
 - A belt and suspenders approach
 

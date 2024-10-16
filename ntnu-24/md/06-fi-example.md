@@ -26,6 +26,8 @@
 - More public work on this device
     - Does not necessarily work anymore
     - Kraken is quite interesting (https://blog.kraken.com/product/security/kraken-identifies-critical-flaw-in-trezor-hardware-wallets)
+
+--
 - In the law enforcement context there are issues
     - Need close to 100% success rate
     - Consistent over sample specimen
@@ -69,9 +71,6 @@
 ## Goal
 
 ### Read out entire flash content
-
----
-# Questions
 
 ---
 ## STM32 Security
@@ -161,7 +160,7 @@
 - 
 
 ---
-## Getting acces to the bootloader
+## Getting access to the bootloader
 
 <img src="assets/bootloader-flowchart1.png" alt="Power scheme 1" height="500" align="left"/>
 

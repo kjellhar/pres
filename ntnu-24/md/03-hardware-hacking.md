@@ -103,7 +103,8 @@ _Tools for grown-ups_....
 
 --
 
-<img src="assets/reverse-sw.png" alt="drawing" height="600"/>
+<img src="assets/reverse-sw.png" alt="Software reversing" height="520" align="left"/>
+<img src="assets/chip-delayer1.png" alt="Chip reversing" height="500" align="left"/>
 
 ---
 # Questions

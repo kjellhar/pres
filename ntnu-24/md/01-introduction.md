@@ -1,9 +1,10 @@
 # Hardware hacking
 ## ... as a forensic tool
 
+<br/>
 
-Kjell Harald Andersen and Kim Espen Nyhus <!-- .element: style="text-align: left; font-style: italic; "> -->
-
+Kjell Harald Andersen and Kim Espen Nyhus <!-- .element: style="text-align: left; font-style: italic; "> --> 
+<br/><br/>
 
 KRIPOS / National Criminal Investigation Service\
 National Cyber Crime Center (NC3)\

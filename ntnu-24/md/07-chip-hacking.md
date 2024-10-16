@@ -15,7 +15,6 @@ LITT MER GENERELT
 
 ---
 ## A Simple lock bit hack
-
 - Most microcontrollers have code protection
 - Older devices - Single fuse or EEPROM bit
 - Flipping the bit -> Code is readable
@@ -39,6 +38,8 @@ LITT MER GENERELT
 
 --
 ## What's a FIB?
+<img src="assets/fib2.jpg" height="600" align="left"/>
+
 - Focussed Ion Beam
 - Often combined with a Scanning Electron Microscope
 - Can both image and manipulate silicon
@@ -48,14 +49,29 @@ LITT MER GENERELT
     - ~10nm resolutions
 
 ---
-## Unlock a PIC controller
+## Unlock an Atmega controller
+
+--
+<img src="assets/atmega1.png" height="900" />
+
+--
+<img src="assets/atmega2.png" height="900" />
+
+--
+<img src="assets/atmega3.png" height="900" />
+
+--
+<img src="assets/atmega4.jpg" height="900" />
+
+--
+<img src="assets/atmega5.jpg" height="900" />
+
+--
+<img src="assets/atmega6.png" height="900" />
 
 
 ---
-# Questions
-
----
-## More advanced attacks
+## Reverse engineering a STM32F205
 
 
 
