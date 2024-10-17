@@ -47,7 +47,7 @@ October 2024 <!-- .element: style="text-align: left;"> -->
 
 --
 ## About - Digital forensics section
-> xtract data and other evidence from electronic devices.
+> Extract data and other evidence from electronic devices.
 
 --
 ## About - International collaboration

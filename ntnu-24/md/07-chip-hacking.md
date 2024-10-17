@@ -20,20 +20,20 @@
 - Usually very time consuming
 
 ---
-## Let's look at som examples
+## Let's look at some examples
 
 ---
-## A Simple lock bit hack
+## A Simple lock-bit hack
 - Most microcontrollers have code protection
 - Older devices - Single fuse or EEPROM bit
 - Flipping the bit -> Code is readable
 - Some controllers used more bits
 
 --
-## The first lockbit hacks
+## The first lock-bit hacks
 - UV light attack
 - Super simple and low cost
-- Masking everything except the lock bit
+- Masking everything except the lock-bit
 - Easily countered by chip designers
 
 --

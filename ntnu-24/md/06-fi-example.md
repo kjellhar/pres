@@ -132,7 +132,7 @@
     - Signal source close to target
     - Small loop area
 - Increase stability
-    - Hard soldered connections
+    - Soldered connections
     - Safer to store and handle
 - Reduce mess
 
@@ -154,6 +154,7 @@
 
 ---
 ## Some words on signal integrity
+SKAL TENKTE LITT TIL PÅ DENNE
 - Short lines
     - 
     - Paracitic effects (L and C)
