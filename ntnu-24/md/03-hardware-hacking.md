@@ -54,15 +54,17 @@ _Software engineers seems to like this_....
 
 ---
 ## Side Channel / Fault injection
-*BILDE*
 - Power glitching and probing
 - EM glitching and probing
 
 _All over YouTube right now_....
 
+--
+<img src="assets/em_probe.jpg" alt="drawing" height="800"/>
+
+
 ---
 ## More Side Channel / Fault injection
-*BILDE*
 - Laser glitching
 - Photon emission probing
 - SEM voltage contrast probing
