@@ -36,8 +36,8 @@
 --
 ## Some words on sample variations
 - Process variation on silicon processes is very large
-    - Some paramters may vary as much as 40%
-    - The design in made to work inside this envelope
+    - Some parameters may vary as much as 40%
+    - The design is made to work inside this envelope
 - SCA/FI pushed the device outside its design parameters
     - The effect of process paramters becomes unpredictable
 
@@ -175,20 +175,41 @@
 --
 <img src="assets/bootloader-glitch.png" alt="Power scheme 1" height="900" />
 
+--
+<img src="assets/bootloader_script.png" alt="Power scheme 1" height="900" />
+
+--
+<img src="assets/glitch_graph1.png" alt="Power scheme 1" height="900" />
+
+--
+<img src="assets/glitch_graph2.png" alt="Power scheme 1" height="900" />
+
 --- 
 ## Read Memory command
 - After bootloader is enabled flash read command is available
 - But the command check RDP bit again before returning any flash content
 - Must perform a new glitch for each read command
 - Each read command only returns 256 bytes of data
-- Must do the same glitch every time
+- Must do the same glitch for each 256 bytes block of data
 
 --
 <img src="assets/read-cmd-flowchart.png" alt="Read command flowchart" height="950"/>
 
+--
+## Glitching the Read Memory command
+- This glitche is first times from the UART command
+    - Not precise enough
+    - UART is not synchronized to program execution
+- Timing is refined by current pulse when the process starts
+    - Much like the bootloader glitch
+- Glitch push the chip into RDP0 for this single execution of the command
+
 ---
 ## Summary
-
+- By controlling the timing precisely, the glitch is extremely repeatable
+- Solid setup prevents problems with EMI and poor signal conditioning
+- Fine tuning must be done for each sample
+- Even ambient temperature changes will throw off the timing
 
 ---
 ## Questions
