@@ -23,7 +23,7 @@
 ## Do it right
 - Always do the risk assessment
 - Don't burn your bridges if you have other options
-- Know all your variable, and control them
+- Know all your variables, and control them
 - Document everything you do
 
 --

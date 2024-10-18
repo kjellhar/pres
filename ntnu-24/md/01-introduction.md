@@ -17,7 +17,7 @@ October 2024 <!-- .element: style="text-align: left;"> -->
 ## Some acknowledgement
 > We would like to thank NTNU Gjøvik and Arvind Sharma for this opportunity to talk to you today. <!-- .element: style="text-align: left;"> -->
 
-> Even though this lecture was created by Kjell H Andersen and Kim Nyhus, it is the accumulated skill and knowledge of many people both in the Norwegian police, and in various agencies across the world that has made this possible. <!-- .element: style="text-align: left;"> -->
+> Even though this lecture was created by Kjell H. Andersen and Kim Nyhus, it is the accumulated skill and knowledge of many people both in the Norwegian police, and in various agencies across the world that has made this possible. <!-- .element: style="text-align: left;"> -->
 
 ---
 ## About - Kjell Harald Andersen
@@ -90,7 +90,7 @@ October 2024 <!-- .element: style="text-align: left;"> -->
     - Feasability study and planning
     - Equipment and lab setup
     - Knowledge and skills
-    - Digital forensics and risk assesment
+    - Digital forensics and risk assessment
 
 --
 ## Main topics

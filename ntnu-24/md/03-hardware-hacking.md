@@ -100,7 +100,7 @@ _Tools for grown-ups_....
 ## Reverse engineering
 - PCB layout / schematics
 - Interface protocols
-- integrated cricuits
+- integrated circuits
 - FPGA bitfiles
 
 --

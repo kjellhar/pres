@@ -39,7 +39,7 @@
     - Some parameters may vary as much as 40%
     - The design is made to work inside this envelope
 - SCA/FI pushed the device outside its design parameters
-    - The effect of process paramters becomes unpredictable
+    - The effect of process parameters becomes unpredictable
 
 --
 ## Some parameters we can't control
