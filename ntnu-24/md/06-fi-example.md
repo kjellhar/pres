@@ -17,7 +17,7 @@
 ## The Joe Grand attack
 - Based on power glitching during boot sequence
 - Enables the debug interface
-- The PIN and encrytion seed was stored in plain text in RAM
+- The PIN and encryption seed was stored in plain text in RAM
 - This attack became obsolete in later firmware
 - https://www.theverge.com/2022/1/24/22898712/crypto-hardware-wallet-hacking-lost-bitcoin-ethereum-nft
 
