@@ -5,7 +5,7 @@
 
 ---
 ## Mostly quick and dirty?
-- Most of the stuff you see on-line is rather improvised
+- Much of the stuff you see on-line is rather improvised
 - Often lacking the knowledge
 - Using the equipment wrong
 - Using the wrong equipment

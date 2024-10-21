@@ -22,8 +22,8 @@
 
 --
 ## Risk assessment
-- How can it be damaged?
-- How do we avoid tamper protection?
+- Physical damaged?
+- Tamper protection?
 - Identify high risk operations
     - What are the consequences of failure?
 - Identify the lowest risk operation that have a good chance at success

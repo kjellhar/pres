@@ -38,7 +38,7 @@
 
 --
 ## More advanced
-- Partial reverse enginnering
+- Partial reverse engineering
 - Find lock bits, and how they are programmed
 - Edit the chip using a FIB
 
@@ -52,7 +52,7 @@
 - Focused Ion Beam
 - Often combined with a Scanning Electron Microscope
 - Can both image and manipulate silicon
-    - Uses accelerated, focused gallium
+    - Uses accelerated, focused beam of gallium ions
     - Removes material by sputtering
     - By adding gasses, you can etch or deposit materials
     - ~10nm resolutions
@@ -150,6 +150,14 @@
 --
 ### Flash
 <img src="assets/f205_dl5.jpg" width="1000"/>
+
+--
+### Close-up 1
+<img src="assets/f205_sem1.png" width="1000"/>
+
+--
+### Close-up 2
+<img src="assets/f205_sem2.png" width="1000"/>
 
 
 ---

@@ -25,16 +25,16 @@ So that we all are on the same page....
  _Back in the old days ...._
 
 --
-<img src="assets/solder1.png" alt="drawing" height="500" align="left"/>
-<img src="assets/mobile1.png" alt="drawing" height ="500" align="left"/>
+<img src="assets/solder1.png" alt="drawing" height="500"/>
+<img src="assets/mobile1.png" alt="drawing" height ="500"/>
 
 --
-<img src="assets/data_recovery1.png" alt="drawing" height="500" align="left"/>
-<img src="assets/data_recovery2.png" alt="drawing" height ="500" align="left"/>
+<img src="assets/data_recovery1.png" alt="drawing" height="600"/>
+<img src="assets/data_recovery2.png" alt="drawing" height ="600"/>
 
 --
-<img src="assets/data_recovery3.png" alt="drawing" height="450" align="left"/>
-<img src="assets/data_recovery4.png" alt="drawing" height ="450" align="left"/>
+<img src="assets/data_recovery3.png" alt="drawing" height="450"/>
+<img src="assets/data_recovery4.png" alt="drawing" height ="450"/>
 
 ---
 ## Fuzzing interfaces

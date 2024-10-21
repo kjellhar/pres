@@ -21,7 +21,7 @@
 - This attack became obsolete in later firmware
 - https://www.theverge.com/2022/1/24/22898712/crypto-hardware-wallet-hacking-lost-bitcoin-ethereum-nft
 
----
+--
 ## Reproducing the attack
 - More public work on this device
     - Does not necessarily work anymore
@@ -33,7 +33,7 @@
     - Consistent over sample specimen
     - Must know variation over chip revision and production site
 
---
+---
 ## Some words on sample variations
 - Process variation on silicon processes is very large
     - Some parameters may vary as much as 40%
@@ -154,11 +154,74 @@
 
 ---
 ## Some words on signal integrity
-SKAL TENKTE LITT TIL PÅ DENNE
-- Short lines
-    - 
-    - Paracitic effects (L and C)
-- 
+> This is likely the mistake we see the most in work by both hobbyists and professionals alike.
+
+--
+### But this is a craft in itself
+- It is a very practical oriented craft
+- It is not something you will learn in an afternoon
+- Academia, as I know it, does not emphasize it 
+- Hopefully, you will get a good mentor that will teach you good lab-craft
+- Or you need to seek out real knowledge on this topic on your own
+
+> At least, now you know it is a thing to consider
+
+
+--
+### Keep your wires short
+- Long wires will give you
+    - Paracitic C and L
+    - Reflections (poorly matched transmission lines)
+    - Difficult to maintain EMI performance
+- Short wires will give you
+    - Crisp and steep edges
+    - Precise timing
+    - Less EM interference
+
+--
+### Keep you loops tight
+- If you put your signal wire and return (GND) wire far apart
+    - You have an antenna
+- If you put your signal and return signal close, maybe twisted
+    - You get a transmission line
+- Use coaxial, shielded cable and SMA connectors whenever possible
+
+(More or less)
+
+--
+### Avoid ground loops
+- If you want to enjoy a noise free setup, plan you ground
+    - Short and sturdy
+    - In a star from a single point
+    - Using ground planes when possible
+
+--
+### Make your connections sturdy
+- If you don't mind debugging your setup
+    - Use bread-board
+    - Loose wires that you twist together
+    - Spring loaded aligator clips
+- If you wan't to spend your time more productive
+    - Solder connections
+    - Crimp-on connections
+    - Make PCB's
+    - SMA connectors
+
+--
+### Madness is lurking somewhere inside this mess
+<img src="assets/breadboard.png" alt="breadboard" height="700"/>
+
+> Image source: https://exceptionnotfound.net/spaghetti-code-the-daily-software-anti-pattern/
+
+--
+### Keep you sanity
+- Follow the rules and do the things, even if it takes longer
+- Everything will be so much ore predictable
+- Everythig will be so much more stable
+
+--
+### And life will be so much better
+<img src="assets/fi_setup.jpg" alt="pcb" height="700"/>
 
 ---
 ## Getting access to the bootloader
